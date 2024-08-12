@@ -1,4 +1,4 @@
-import 'package:duogaza/presentaion/home/component/board_menu.dart';
+import 'package:duogaza/presentation/home/component/board_menu.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {

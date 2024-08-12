@@ -1,4 +1,4 @@
-import 'package:duogaza/presentaion/home/home_screen.dart';
+import 'package:duogaza/presentation/home/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
