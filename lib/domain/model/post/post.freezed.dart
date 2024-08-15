@@ -20,7 +20,7 @@ Post _$PostFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$Post {
-  int get postId => throw _privateConstructorUsedError;
+  String get postId => throw _privateConstructorUsedError;
   DateTime get createDate => throw _privateConstructorUsedError;
   String get title => throw _privateConstructorUsedError;
   String get content => throw _privateConstructorUsedError;
@@ -43,7 +43,7 @@ abstract class $PostCopyWith<$Res> {
       _$PostCopyWithImpl<$Res, Post>;
   @useResult
   $Res call(
-      {int postId,
+      {String postId,
       DateTime createDate,
       String title,
       String content,
@@ -85,7 +85,7 @@ class _$PostCopyWithImpl<$Res, $Val extends Post>
       postId: null == postId
           ? _value.postId
           : postId // ignore: cast_nullable_to_non_nullable
-              as int,
+              as String,
       createDate: null == createDate
           ? _value.createDate
           : createDate // ignore: cast_nullable_to_non_nullable
@@ -138,7 +138,7 @@ abstract class _$$PostImplCopyWith<$Res> implements $PostCopyWith<$Res> {
   @override
   @useResult
   $Res call(
-      {int postId,
+      {String postId,
       DateTime createDate,
       String title,
       String content,
@@ -177,7 +177,7 @@ class __$$PostImplCopyWithImpl<$Res>
       postId: null == postId
           ? _value.postId
           : postId // ignore: cast_nullable_to_non_nullable
-              as int,
+              as String,
       createDate: null == createDate
           ? _value.createDate
           : createDate // ignore: cast_nullable_to_non_nullable
@@ -244,7 +244,7 @@ class _$PostImpl implements _Post {
       _$$PostImplFromJson(json);
 
   @override
-  final int postId;
+  final String postId;
   @override
   final DateTime createDate;
   @override
@@ -339,7 +339,7 @@ class _$PostImpl implements _Post {
 
 abstract class _Post implements Post {
   const factory _Post(
-      {required final int postId,
+      {required final String postId,
       required final DateTime createDate,
       required final String title,
       required final String content,
@@ -354,7 +354,7 @@ abstract class _Post implements Post {
   factory _Post.fromJson(Map<String, dynamic> json) = _$PostImpl.fromJson;
 
   @override
-  int get postId;
+  String get postId;
   @override
   DateTime get createDate;
   @override
